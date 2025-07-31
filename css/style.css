@@ -622,7 +622,7 @@ img{
     justify-content: center;
     fill: transparent;
 }
-.visually-hidden:checked + .conditions{
+input:checked~label .conditions {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
