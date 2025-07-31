@@ -528,8 +528,8 @@ img{
 .vector{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal .vector:hover,
-.modal .vector:focus{
+.button-reg:hover .vector,
+.button-reg:focus .vector {
     fill: #ffffff;
 }
 .paragraph-reg{
@@ -626,4 +626,20 @@ input:checked~label .conditions {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
+}
+.bottom-send{
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0 auto;
 }
