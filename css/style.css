@@ -199,7 +199,9 @@ h1, h2, h3, p{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin: 10px;
+}
+.container-name .team-info{
+    margin-bottom: 8px;
 }
 .team-section .team-info{
     text-align: center;
@@ -236,12 +238,6 @@ h1, h2, h3, p{
 .footer{
     background-color: #2e2f42;
     padding: 100px 0;
-}
-.paragraph-footer{
-    line-height: 1.5;
-    color: #F4F4FD;
-    max-width: 264px;
-    letter-spacing: 0.02em;
 }
 .footer-logo{
     display: inline-block;
@@ -425,17 +421,16 @@ img{
     gap: 5px;
 }
 .paragraph-footer{
-    margin-bottom: 16px;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 264px;
 }
 .foter-form{
     gap: 24px;
     display: flex;
-
 }
 .label-foter{
     gap: 24px;
@@ -477,7 +472,10 @@ img{
     margin-left: 16px;
 }
 .email-div{
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: auto;
 }
 .fix-window{
     position: fixed;
